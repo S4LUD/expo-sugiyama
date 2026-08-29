@@ -1,0 +1,74 @@
+{
+  "name": "join",
+  "options": {
+    "rankdir": "TB",
+    "nodesep": 60,
+    "ranksep": 80,
+    "marginx": 40,
+    "marginy": 40,
+    "nodeWidth": 150,
+    "nodeHeight": 64,
+    "orderingPasses": 4
+  },
+  "nodes": [
+    {
+      "id": "a",
+      "width": 150,
+      "height": 64
+    },
+    {
+      "id": "b",
+      "width": 150,
+      "height": 64
+    },
+    {
+      "id": "c",
+      "width": 150,
+      "height": 64
+    },
+    {
+      "id": "s",
+      "width": 150,
+      "height": 64
+    }
+  ],
+  "edges": [
+    {
+      "id": "e0",
+      "source": "a",
+      "target": "s"
+    },
+    {
+      "id": "e1",
+      "source": "b",
+      "target": "s"
+    },
+    {
+      "id": "e2",
+      "source": "c",
+      "target": "s"
+    }
+  ],
+  "output": {
+    "positions": {
+      "a": {
+        "x": 40,
+        "y": 40
+      },
+      "b": {
+        "x": 250,
+        "y": 40
+      },
+      "c": {
+        "x": 460,
+        "y": 40
+      },
+      "s": {
+        "x": 40,
+        "y": 184
+      }
+    },
+    "width": 650,
+    "height": 288
+  }
+}

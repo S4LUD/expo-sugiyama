@@ -1,0 +1,45 @@
+{
+  "name": "expo-sugiyama",
+  "version": "0.1.0",
+  "description": "High-performance native hierarchical (Sugiyama) graph layout computation for React Native. Computes layering, ordering, and coordinate assignment entirely in native code, off the JS thread.",
+  "main": "index.ts",
+  "types": "index.ts",
+  "sideEffects": false,
+  "license": "MIT",
+  "files": [
+    "index.ts",
+    "src",
+    "android",
+    "ios",
+    "fixtures",
+    "expo-module.config.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "expo",
+    "graph",
+    "layout",
+    "sugiyama",
+    "dag",
+    "hierarchical",
+    "react-native"
+  ],
+  "author": "Dalio Engineering",
+  "homepage": "https://github.com/S4LUD/Dalio#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/S4LUD/Dalio.git",
+    "directory": "mobile/modules/expo-sugiyama"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "expo": ">=51.0.0"
+  },
+  "scripts": {
+    "test:ios": "cd ios && pod lib lint --test-specs=Tests",
+    "test:android": "cd android && gradlew.bat testDebugUnitTest"
+  }
+}

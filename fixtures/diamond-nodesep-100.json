@@ -1,0 +1,79 @@
+{
+  "name": "diamond-nodesep-100",
+  "options": {
+    "rankdir": "TB",
+    "nodesep": 100,
+    "ranksep": 80,
+    "marginx": 40,
+    "marginy": 40,
+    "nodeWidth": 150,
+    "nodeHeight": 64,
+    "orderingPasses": 4
+  },
+  "nodes": [
+    {
+      "id": "a",
+      "width": 150,
+      "height": 64
+    },
+    {
+      "id": "b",
+      "width": 150,
+      "height": 64
+    },
+    {
+      "id": "c",
+      "width": 150,
+      "height": 64
+    },
+    {
+      "id": "d",
+      "width": 150,
+      "height": 64
+    }
+  ],
+  "edges": [
+    {
+      "id": "e0",
+      "source": "a",
+      "target": "b"
+    },
+    {
+      "id": "e1",
+      "source": "a",
+      "target": "c"
+    },
+    {
+      "id": "e2",
+      "source": "b",
+      "target": "d"
+    },
+    {
+      "id": "e3",
+      "source": "c",
+      "target": "d"
+    }
+  ],
+  "output": {
+    "positions": {
+      "a": {
+        "x": 165,
+        "y": 40
+      },
+      "b": {
+        "x": 40,
+        "y": 184
+      },
+      "c": {
+        "x": 290,
+        "y": 184
+      },
+      "d": {
+        "x": 40,
+        "y": 328
+      }
+    },
+    "width": 480,
+    "height": 432
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "name": "disconnected-custom",
+  "options": {
+    "rankdir": "TB",
+    "nodesep": 100,
+    "ranksep": 120,
+    "marginx": 8,
+    "marginy": 8,
+    "nodeWidth": 150,
+    "nodeHeight": 64,
+    "orderingPasses": 4
+  },
+  "nodes": [
+    {
+      "id": "n0",
+      "width": 150,
+      "height": 64
+    },
+    {
+      "id": "n1",
+      "width": 150,
+      "height": 64
+    },
+    {
+      "id": "n2",
+      "width": 150,
+      "height": 64
+    },
+    {
+      "id": "n3",
+      "width": 150,
+      "height": 64
+    },
+    {
+      "id": "n4",
+      "width": 150,
+      "height": 64
+    },
+    {
+      "id": "n5",
+      "width": 150,
+      "height": 64
+    }
+  ],
+  "edges": [
+    {
+      "id": "e0",
+      "source": "n0",
+      "target": "n1"
+    },
+    {
+      "id": "e1",
+      "source": "n2",
+      "target": "n3"
+    },
+    {
+      "id": "e2",
+      "source": "n3",
+      "target": "n4"
+    }
+  ],
+  "output": {
+    "positions": {
+      "n0": {
+        "x": 8,
+        "y": 8
+      },
+      "n1": {
+        "x": 8,
+        "y": 192
+      },
+      "n2": {
+        "x": 258,
+        "y": 8
+      },
+      "n3": {
+        "x": 258,
+        "y": 192
+      },
+      "n4": {
+        "x": 258,
+        "y": 376
+      },
+      "n5": {
+        "x": 508,
+        "y": 8
+      }
+    },
+    "width": 666,
+    "height": 448
+  }
+}

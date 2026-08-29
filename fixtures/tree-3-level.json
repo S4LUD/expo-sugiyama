@@ -1,0 +1,116 @@
+{
+  "name": "tree-3-level",
+  "options": {
+    "rankdir": "TB",
+    "nodesep": 60,
+    "ranksep": 80,
+    "marginx": 40,
+    "marginy": 40,
+    "nodeWidth": 150,
+    "nodeHeight": 64,
+    "orderingPasses": 4
+  },
+  "nodes": [
+    {
+      "id": "r",
+      "width": 150,
+      "height": 64
+    },
+    {
+      "id": "a",
+      "width": 150,
+      "height": 64
+    },
+    {
+      "id": "b",
+      "width": 150,
+      "height": 64
+    },
+    {
+      "id": "a1",
+      "width": 150,
+      "height": 64
+    },
+    {
+      "id": "a2",
+      "width": 150,
+      "height": 64
+    },
+    {
+      "id": "b1",
+      "width": 150,
+      "height": 64
+    },
+    {
+      "id": "b2",
+      "width": 150,
+      "height": 64
+    }
+  ],
+  "edges": [
+    {
+      "id": "e0",
+      "source": "r",
+      "target": "a"
+    },
+    {
+      "id": "e1",
+      "source": "r",
+      "target": "b"
+    },
+    {
+      "id": "e2",
+      "source": "a",
+      "target": "a1"
+    },
+    {
+      "id": "e3",
+      "source": "a",
+      "target": "a2"
+    },
+    {
+      "id": "e4",
+      "source": "b",
+      "target": "b1"
+    },
+    {
+      "id": "e5",
+      "source": "b",
+      "target": "b2"
+    }
+  ],
+  "output": {
+    "positions": {
+      "r": {
+        "x": 355,
+        "y": 40
+      },
+      "a": {
+        "x": 145,
+        "y": 184
+      },
+      "b": {
+        "x": 565,
+        "y": 184
+      },
+      "a1": {
+        "x": 40,
+        "y": 328
+      },
+      "a2": {
+        "x": 250,
+        "y": 328
+      },
+      "b1": {
+        "x": 460,
+        "y": 328
+      },
+      "b2": {
+        "x": 670,
+        "y": 328
+      }
+    },
+    "width": 860,
+    "height": 432
+  }
+}

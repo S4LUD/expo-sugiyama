@@ -1,0 +1,88 @@
+{
+  "name": "mixed-size",
+  "options": {
+    "rankdir": "TB",
+    "nodesep": 60,
+    "ranksep": 80,
+    "marginx": 40,
+    "marginy": 40,
+    "nodeWidth": 150,
+    "nodeHeight": 64,
+    "orderingPasses": 4
+  },
+  "nodes": [
+    {
+      "id": "a",
+      "width": 120,
+      "height": 80
+    },
+    {
+      "id": "b",
+      "width": 200,
+      "height": 48
+    },
+    {
+      "id": "c",
+      "width": 150,
+      "height": 64
+    },
+    {
+      "id": "d",
+      "width": 96,
+      "height": 120
+    },
+    {
+      "id": "e",
+      "width": 180,
+      "height": 56
+    }
+  ],
+  "edges": [
+    {
+      "id": "e0",
+      "source": "a",
+      "target": "c"
+    },
+    {
+      "id": "e1",
+      "source": "b",
+      "target": "c"
+    },
+    {
+      "id": "e2",
+      "source": "c",
+      "target": "d"
+    },
+    {
+      "id": "e3",
+      "source": "c",
+      "target": "e"
+    }
+  ],
+  "output": {
+    "positions": {
+      "a": {
+        "x": 148,
+        "y": 40
+      },
+      "b": {
+        "x": 436,
+        "y": 40
+      },
+      "c": {
+        "x": 133,
+        "y": 200
+      },
+      "d": {
+        "x": 40,
+        "y": 344
+      },
+      "e": {
+        "x": 196,
+        "y": 344
+      }
+    },
+    "width": 676,
+    "height": 504
+  }
+}

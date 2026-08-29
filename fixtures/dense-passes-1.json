@@ -1,0 +1,131 @@
+{
+  "name": "dense-passes-1",
+  "options": {
+    "rankdir": "TB",
+    "nodesep": 60,
+    "ranksep": 80,
+    "marginx": 40,
+    "marginy": 40,
+    "nodeWidth": 150,
+    "nodeHeight": 64,
+    "orderingPasses": 1
+  },
+  "nodes": [
+    {
+      "id": "a",
+      "width": 150,
+      "height": 64
+    },
+    {
+      "id": "b",
+      "width": 150,
+      "height": 64
+    },
+    {
+      "id": "c",
+      "width": 150,
+      "height": 64
+    },
+    {
+      "id": "d",
+      "width": 150,
+      "height": 64
+    },
+    {
+      "id": "e",
+      "width": 150,
+      "height": 64
+    },
+    {
+      "id": "f",
+      "width": 150,
+      "height": 64
+    },
+    {
+      "id": "g",
+      "width": 150,
+      "height": 64
+    }
+  ],
+  "edges": [
+    {
+      "id": "e0",
+      "source": "a",
+      "target": "d"
+    },
+    {
+      "id": "e1",
+      "source": "a",
+      "target": "e"
+    },
+    {
+      "id": "e2",
+      "source": "b",
+      "target": "e"
+    },
+    {
+      "id": "e3",
+      "source": "b",
+      "target": "f"
+    },
+    {
+      "id": "e4",
+      "source": "c",
+      "target": "e"
+    },
+    {
+      "id": "e5",
+      "source": "c",
+      "target": "f"
+    },
+    {
+      "id": "e6",
+      "source": "d",
+      "target": "g"
+    },
+    {
+      "id": "e7",
+      "source": "e",
+      "target": "g"
+    },
+    {
+      "id": "e8",
+      "source": "f",
+      "target": "g"
+    }
+  ],
+  "output": {
+    "positions": {
+      "a": {
+        "x": 145,
+        "y": 40
+      },
+      "b": {
+        "x": 460,
+        "y": 40
+      },
+      "c": {
+        "x": 670,
+        "y": 40
+      },
+      "d": {
+        "x": 40,
+        "y": 184
+      },
+      "e": {
+        "x": 250,
+        "y": 184
+      },
+      "f": {
+        "x": 460,
+        "y": 184
+      },
+      "g": {
+        "x": 40,
+        "y": 328
+      }
+    },
+    "width": 860,
+    "height": 432
+  }
+}

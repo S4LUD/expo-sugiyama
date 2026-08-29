@@ -1,0 +1,131 @@
+{
+  "name": "dense-lr-nodesep-120",
+  "options": {
+    "rankdir": "LR",
+    "nodesep": 120,
+    "ranksep": 80,
+    "marginx": 40,
+    "marginy": 40,
+    "nodeWidth": 150,
+    "nodeHeight": 64,
+    "orderingPasses": 4
+  },
+  "nodes": [
+    {
+      "id": "a",
+      "width": 150,
+      "height": 64
+    },
+    {
+      "id": "b",
+      "width": 150,
+      "height": 64
+    },
+    {
+      "id": "c",
+      "width": 150,
+      "height": 64
+    },
+    {
+      "id": "d",
+      "width": 150,
+      "height": 64
+    },
+    {
+      "id": "e",
+      "width": 150,
+      "height": 64
+    },
+    {
+      "id": "f",
+      "width": 150,
+      "height": 64
+    },
+    {
+      "id": "g",
+      "width": 150,
+      "height": 64
+    }
+  ],
+  "edges": [
+    {
+      "id": "e0",
+      "source": "a",
+      "target": "d"
+    },
+    {
+      "id": "e1",
+      "source": "a",
+      "target": "e"
+    },
+    {
+      "id": "e2",
+      "source": "b",
+      "target": "e"
+    },
+    {
+      "id": "e3",
+      "source": "b",
+      "target": "f"
+    },
+    {
+      "id": "e4",
+      "source": "c",
+      "target": "e"
+    },
+    {
+      "id": "e5",
+      "source": "c",
+      "target": "f"
+    },
+    {
+      "id": "e6",
+      "source": "d",
+      "target": "g"
+    },
+    {
+      "id": "e7",
+      "source": "e",
+      "target": "g"
+    },
+    {
+      "id": "e8",
+      "source": "f",
+      "target": "g"
+    }
+  ],
+  "output": {
+    "positions": {
+      "a": {
+        "x": 40,
+        "y": 112
+      },
+      "b": {
+        "x": 40,
+        "y": 328
+      },
+      "c": {
+        "x": 40,
+        "y": 472
+      },
+      "d": {
+        "x": 310,
+        "y": 40
+      },
+      "e": {
+        "x": 310,
+        "y": 184
+      },
+      "f": {
+        "x": 310,
+        "y": 328
+      },
+      "g": {
+        "x": 580,
+        "y": 40
+      }
+    },
+    "width": 770,
+    "height": 576
+  }
+}

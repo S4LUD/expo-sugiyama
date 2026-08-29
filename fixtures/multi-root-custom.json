@@ -1,0 +1,60 @@
+{
+  "name": "multi-root-custom",
+  "options": {
+    "rankdir": "TB",
+    "nodesep": 20,
+    "ranksep": 120,
+    "marginx": 40,
+    "marginy": 40,
+    "nodeWidth": 150,
+    "nodeHeight": 64,
+    "orderingPasses": 4
+  },
+  "nodes": [
+    {
+      "id": "ra",
+      "width": 150,
+      "height": 64
+    },
+    {
+      "id": "rb",
+      "width": 150,
+      "height": 64
+    },
+    {
+      "id": "s",
+      "width": 150,
+      "height": 64
+    }
+  ],
+  "edges": [
+    {
+      "id": "e0",
+      "source": "ra",
+      "target": "s"
+    },
+    {
+      "id": "e1",
+      "source": "rb",
+      "target": "s"
+    }
+  ],
+  "output": {
+    "positions": {
+      "ra": {
+        "x": 40,
+        "y": 40
+      },
+      "rb": {
+        "x": 210,
+        "y": 40
+      },
+      "s": {
+        "x": 40,
+        "y": 224
+      }
+    },
+    "width": 400,
+    "height": 328
+  }
+}

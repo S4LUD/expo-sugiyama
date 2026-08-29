@@ -1,0 +1,31 @@
+{
+  "name": "single-node",
+  "options": {
+    "rankdir": "TB",
+    "nodesep": 60,
+    "ranksep": 80,
+    "marginx": 40,
+    "marginy": 40,
+    "nodeWidth": 150,
+    "nodeHeight": 64,
+    "orderingPasses": 4
+  },
+  "nodes": [
+    {
+      "id": "s",
+      "width": 150,
+      "height": 64
+    }
+  ],
+  "edges": [],
+  "output": {
+    "positions": {
+      "s": {
+        "x": 40,
+        "y": 40
+      }
+    },
+    "width": 230,
+    "height": 144
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "name": "dense-custom",
+  "options": {
+    "rankdir": "TB",
+    "nodesep": 24,
+    "ranksep": 96,
+    "marginx": 12,
+    "marginy": 28,
+    "nodeWidth": 150,
+    "nodeHeight": 64,
+    "orderingPasses": 6
+  },
+  "nodes": [
+    {
+      "id": "a",
+      "width": 150,
+      "height": 64
+    },
+    {
+      "id": "b",
+      "width": 150,
+      "height": 64
+    },
+    {
+      "id": "c",
+      "width": 150,
+      "height": 64
+    },
+    {
+      "id": "d",
+      "width": 150,
+      "height": 64
+    },
+    {
+      "id": "e",
+      "width": 150,
+      "height": 64
+    },
+    {
+      "id": "f",
+      "width": 150,
+      "height": 64
+    },
+    {
+      "id": "g",
+      "width": 150,
+      "height": 64
+    }
+  ],
+  "edges": [
+    {
+      "id": "e0",
+      "source": "a",
+      "target": "d"
+    },
+    {
+      "id": "e1",
+      "source": "a",
+      "target": "e"
+    },
+    {
+      "id": "e2",
+      "source": "b",
+      "target": "e"
+    },
+    {
+      "id": "e3",
+      "source": "b",
+      "target": "f"
+    },
+    {
+      "id": "e4",
+      "source": "c",
+      "target": "e"
+    },
+    {
+      "id": "e5",
+      "source": "c",
+      "target": "f"
+    },
+    {
+      "id": "e6",
+      "source": "d",
+      "target": "g"
+    },
+    {
+      "id": "e7",
+      "source": "e",
+      "target": "g"
+    },
+    {
+      "id": "e8",
+      "source": "f",
+      "target": "g"
+    }
+  ],
+  "output": {
+    "positions": {
+      "a": {
+        "x": 99,
+        "y": 28
+      },
+      "b": {
+        "x": 360,
+        "y": 28
+      },
+      "c": {
+        "x": 534,
+        "y": 28
+      },
+      "d": {
+        "x": 12,
+        "y": 188
+      },
+      "e": {
+        "x": 186,
+        "y": 188
+      },
+      "f": {
+        "x": 360,
+        "y": 188
+      },
+      "g": {
+        "x": 12,
+        "y": 348
+      }
+    },
+    "width": 696,
+    "height": 440
+  }
+}

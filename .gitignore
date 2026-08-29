@@ -1,0 +1,14 @@
+# Native build output
+android/build/
+android/.gradle/
+android/.kotlin/
+ios/build/
+ios/Pods/
+ios/.build/
+ios/.swiftpm/
+*.xcworkspace/xcuserdata/
+DerivedData/
+
+# Dependencies
+node_modules/
+.expo/

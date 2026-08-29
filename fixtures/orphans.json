@@ -1,0 +1,49 @@
+{
+  "name": "orphans",
+  "options": {
+    "rankdir": "TB",
+    "nodesep": 60,
+    "ranksep": 80,
+    "marginx": 40,
+    "marginy": 40,
+    "nodeWidth": 150,
+    "nodeHeight": 64,
+    "orderingPasses": 4
+  },
+  "nodes": [
+    {
+      "id": "a",
+      "width": 150,
+      "height": 64
+    },
+    {
+      "id": "b",
+      "width": 150,
+      "height": 64
+    },
+    {
+      "id": "c",
+      "width": 150,
+      "height": 64
+    }
+  ],
+  "edges": [],
+  "output": {
+    "positions": {
+      "a": {
+        "x": 40,
+        "y": 40
+      },
+      "b": {
+        "x": 250,
+        "y": 40
+      },
+      "c": {
+        "x": 460,
+        "y": 40
+      }
+    },
+    "width": 650,
+    "height": 144
+  }
+}

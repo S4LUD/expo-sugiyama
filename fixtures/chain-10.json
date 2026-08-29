@@ -1,0 +1,158 @@
+{
+  "name": "chain-10",
+  "options": {
+    "rankdir": "TB",
+    "nodesep": 60,
+    "ranksep": 80,
+    "marginx": 40,
+    "marginy": 40,
+    "nodeWidth": 150,
+    "nodeHeight": 64,
+    "orderingPasses": 4
+  },
+  "nodes": [
+    {
+      "id": "n0",
+      "width": 150,
+      "height": 64
+    },
+    {
+      "id": "n1",
+      "width": 150,
+      "height": 64
+    },
+    {
+      "id": "n2",
+      "width": 150,
+      "height": 64
+    },
+    {
+      "id": "n3",
+      "width": 150,
+      "height": 64
+    },
+    {
+      "id": "n4",
+      "width": 150,
+      "height": 64
+    },
+    {
+      "id": "n5",
+      "width": 150,
+      "height": 64
+    },
+    {
+      "id": "n6",
+      "width": 150,
+      "height": 64
+    },
+    {
+      "id": "n7",
+      "width": 150,
+      "height": 64
+    },
+    {
+      "id": "n8",
+      "width": 150,
+      "height": 64
+    },
+    {
+      "id": "n9",
+      "width": 150,
+      "height": 64
+    }
+  ],
+  "edges": [
+    {
+      "id": "e0",
+      "source": "n0",
+      "target": "n1"
+    },
+    {
+      "id": "e1",
+      "source": "n1",
+      "target": "n2"
+    },
+    {
+      "id": "e2",
+      "source": "n2",
+      "target": "n3"
+    },
+    {
+      "id": "e3",
+      "source": "n3",
+      "target": "n4"
+    },
+    {
+      "id": "e4",
+      "source": "n4",
+      "target": "n5"
+    },
+    {
+      "id": "e5",
+      "source": "n5",
+      "target": "n6"
+    },
+    {
+      "id": "e6",
+      "source": "n6",
+      "target": "n7"
+    },
+    {
+      "id": "e7",
+      "source": "n7",
+      "target": "n8"
+    },
+    {
+      "id": "e8",
+      "source": "n8",
+      "target": "n9"
+    }
+  ],
+  "output": {
+    "positions": {
+      "n0": {
+        "x": 40,
+        "y": 40
+      },
+      "n1": {
+        "x": 40,
+        "y": 184
+      },
+      "n2": {
+        "x": 40,
+        "y": 328
+      },
+      "n3": {
+        "x": 40,
+        "y": 472
+      },
+      "n4": {
+        "x": 40,
+        "y": 616
+      },
+      "n5": {
+        "x": 40,
+        "y": 760
+      },
+      "n6": {
+        "x": 40,
+        "y": 904
+      },
+      "n7": {
+        "x": 40,
+        "y": 1048
+      },
+      "n8": {
+        "x": 40,
+        "y": 1192
+      },
+      "n9": {
+        "x": 40,
+        "y": 1336
+      }
+    },
+    "width": 230,
+    "height": 1440
+  }
+}

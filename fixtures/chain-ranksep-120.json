@@ -1,0 +1,74 @@
+{
+  "name": "chain-ranksep-120",
+  "options": {
+    "rankdir": "TB",
+    "nodesep": 60,
+    "ranksep": 120,
+    "marginx": 40,
+    "marginy": 40,
+    "nodeWidth": 150,
+    "nodeHeight": 64,
+    "orderingPasses": 4
+  },
+  "nodes": [
+    {
+      "id": "n0",
+      "width": 150,
+      "height": 64
+    },
+    {
+      "id": "n1",
+      "width": 150,
+      "height": 64
+    },
+    {
+      "id": "n2",
+      "width": 150,
+      "height": 64
+    },
+    {
+      "id": "n3",
+      "width": 150,
+      "height": 64
+    }
+  ],
+  "edges": [
+    {
+      "id": "e0",
+      "source": "n0",
+      "target": "n1"
+    },
+    {
+      "id": "e1",
+      "source": "n1",
+      "target": "n2"
+    },
+    {
+      "id": "e2",
+      "source": "n2",
+      "target": "n3"
+    }
+  ],
+  "output": {
+    "positions": {
+      "n0": {
+        "x": 40,
+        "y": 40
+      },
+      "n1": {
+        "x": 40,
+        "y": 224
+      },
+      "n2": {
+        "x": 40,
+        "y": 408
+      },
+      "n3": {
+        "x": 40,
+        "y": 592
+      }
+    },
+    "width": 230,
+    "height": 696
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "platforms": ["apple", "android"],
+  "apple": {
+    "modules": ["SugiyamaModule"]
+  },
+  "android": {
+    "modules": ["expo.modules.sugiyama.SugiyamaModule"]
+  }
+}
