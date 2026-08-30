@@ -1,16 +1,16 @@
 Pod::Spec.new do |s|
   s.name           = 'ExpoSugiyama'
-  s.version        = '0.1.0'
+  s.version        = '0.1.1'
   s.summary        = 'High-performance native hierarchical graph layout computation for React Native.'
   s.description    = 'expo-sugiyama is a reusable Expo Modules library that computes Sugiyama-framework graph layouts (layering, ordering, coordinate assignment) entirely in native code, off the JS thread.'
-  s.author         = 'Dalio Engineering'
-  s.homepage       = 'https://github.com/S4LUD/Dalio'
+  s.author         = 'S4LUD'
+  s.homepage       = 'https://github.com/S4LUD/expo-sugiyama'
   s.license        = 'MIT'
   s.platforms      = {
     :ios => '16.0',
     :tvos => '16.0'
   }
-  s.source         = { git: '' }
+  s.source         = { git: 'https://github.com/S4LUD/expo-sugiyama.git', tag: 'v0.1.1' }
   s.static_framework = true
 
   s.dependency 'ExpoModulesCore'

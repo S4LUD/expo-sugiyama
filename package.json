@@ -1,6 +1,6 @@
 {
   "name": "expo-sugiyama",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "High-performance native hierarchical (Sugiyama) graph layout computation for React Native. Computes layering, ordering, and coordinate assignment entirely in native code, off the JS thread.",
   "main": "index.ts",
   "types": "index.ts",
