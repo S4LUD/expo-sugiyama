@@ -1,5 +1,9 @@
 # expo-sugiyama
 
+[![npm version](https://img.shields.io/npm/v/expo-sugiyama?style=flat-square)](https://www.npmjs.com/package/expo-sugiyama)
+[![npm downloads](https://img.shields.io/npm/dt/expo-sugiyama?style=flat-square)](https://www.npmjs.com/package/expo-sugiyama)
+[![npm weekly downloads](https://img.shields.io/npm/dw/expo-sugiyama?style=flat-square)](https://www.npmjs.com/package/expo-sugiyama)
+
 High-performance native hierarchical (Sugiyama) graph layout computation for
 React Native (Expo Modules).
 
